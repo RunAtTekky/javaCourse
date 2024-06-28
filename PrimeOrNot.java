@@ -1,10 +1,10 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
-
 public class PrimeOrNot {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        System.out.println("Varun Rawat (22BCE10512)");
 
+        System.out.println("Enter number: ");
+        Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
 
         boolean prime = true;

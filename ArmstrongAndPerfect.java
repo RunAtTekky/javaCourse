@@ -3,8 +3,10 @@ import java.util.Scanner;
 
 public class ArmstrongAndPerfect {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        System.out.println("Varun Rawat (22BCE10512)");
 
+        System.out.println("Enter number: ");
+        Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
 
         // Armstrong Number -> sum of cube of digits == number
@@ -23,7 +25,7 @@ public class ArmstrongAndPerfect {
         if (isPerfect) {
             System.out.println(x + " is perfect");
         } else {
-            System.out.println(x + " is not perfect");
+            System.out.println(x + " is NOT perfect");
         }
     }
 
