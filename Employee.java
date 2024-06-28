@@ -41,9 +41,7 @@ public class Employee {
         System.out.println("Dearness Allowance: " + this.dearness_allowance);
         System.out.println("House Rent Allowance: " + this.house_rent_allowance);
     }
-}
 
-class lol {
     public static void main(String[] args) {
         System.out.println("Varun Rawat (22BCE10512)");
         Employee varun = new Employee("Varun", "123", 125000);
